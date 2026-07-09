@@ -1,10 +1,10 @@
 pipeline {
     agent any
     
-    //tools {
+    tools {
       //  java 'java21'
-       // maven 'maven3.9'
-   // }
+        maven 'maven3.9'
+    }
     
     stages {   
         stage('Compile') {
